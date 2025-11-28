@@ -1,14 +1,14 @@
-# Lightweight Systems, In‑Memory Everything, Decentralization, Human Engineering, Mass Psychopathy, and the Way Forward
+# Lightweight Systems, Decentralization, Human Engineering, Mass Psychopathy, and the Way Forward
 
-Hi, I'm Rook. I build small, auditable systems that intently run on low-spec hardware. My work favors clarity, reproducibility, sovereignty, and ergonomics. "Can it run the same in Africa as would in New York or Los Angeles?" is the bar.
+Hi, I'm Rook. I build small, auditable systems that intently run on low-spec hardware. My work favors clarity, reproducibility, sovereignty, and ergonomics. "Can it run the same in Africa as would in New York or Los Angeles?" is a minimum standard.
 
-Below are the engineering tradeoffs I made deliberately, the projects I'm actively developing (so you know what to expect when you clone something), and a bit on the ethos that powers it all.
+Below are the engineering tradeoffs I deliberately make, the projects I'm actively developing (so you know what to expect when cloning), and a bit on the ethos that powers it all.
 
 Why I build this way
-- In‑memory always: keep the canonical runtime state in memory during development and testing to make behavior explicit, deterministic, and easy to reason about. Snapshot or persist as a clear, pluggable step when needed.
-- Auditability, no magic: small dependency graphs, explicit serialization, and clear invariants so you can inspect the whole system without a PhD. No more gatekeeping.
+- In‑memory procssing: keep the canonical runtime state in memory during development and testing to make behavior explicit, deterministic, and easy to reason about. Snapshot or persist as a clear, pluggable step when needed.
+- Auditability, minimal magic: small dependency graphs, explicit serialization, and clear invariants so you can inspect the whole system without a PhD. No more gatekeeping.
 - Fast feedback loops: spawn multi‑node tests locally, iterate on consensus rules, and reproduce edge cases with deterministic clocks and seeds.
-- Because it's practical: I'm not purist, I'm a worker, blue collar. I’ll trade theoretical elegance for a working, debuggable implementation when it moves a project forward. Stop supporting fantasy and support real action.
+- Because it's practical: I'm not purist, I'm a worker. I’ll trade theoretical elegance for a working, debuggable implementation when it moves a project forward. Stop supporting fantasy and support real action.
 - Because greed kills innovation and affects application. Autonomy, sovereignty, low-to-zero overhead is baked into the code. 
 
 Design principles (Valid)
@@ -36,6 +36,7 @@ Technical snapshot (typical patterns I use)
 
 What I ship (current priorities)
 - **The Valid Network**(accessible PoS chain) — compact async Rust node: 10s slots, stake‑weighted leader selection, gossip P2P, mempool, JSON‑RPC. Readme and quickstart in the repo.
+- **Local Vault Password Manager** - Local, secure, portable password manager(alpha release)
 - **Valid Browser wallet** (prototype) — UX‑focused (initially) JS app for experimenting with seed flows and RPC integration (prototype only; not for real funds).
 - **K.E.V.I.N.** — fully autonomous, self-improving AI agent.
 - **Valid Browser** - Brave browser hard fork, web3 portal
@@ -43,6 +44,7 @@ What I ship (current priorities)
 
 Projects (quick links)
 - **Node:** https://github.com/HiImRook/accessible-pos-chain
+- **Local Vault Password Manager (alpha)**: https://github.com/HiImRook/local-vault-password-manager
 - **Wallet (prototype):** https://github.com/HiImRook/Valid-Blockchain-Wallet
 - **Bots & tools:** https://github.com/HiImRook (see repositories)
 
