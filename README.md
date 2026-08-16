@@ -27,5 +27,4 @@ I'm a full-stack developer working specifically with lightweight systems. Most o
 ## Rook is here
 
 - GitHub: https://github.com/HiImRook
-- X/Twitter: https://x.com/WarTimeRook
 - Discord: https://discord.gg/2SP383cJs9
