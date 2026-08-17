@@ -1,30 +1,36 @@
-# I'm Rook. I build things that run anywhere.
+# Hi, I'm Rook. I build digital sovereignty.
 
-I'm a full-stack developer working specifically with lightweight systems. Most of my work focuses on in-memory processing. Right now I'm building the Valid Blockchain and various tools, local LLMs, various platform bots and tools, and an original TCG.
+My idea is simple: the software you use should belong to *you*. It should run on *your* machine, keep your data in *your* hands, and work without asking permission from some company's server. These principles decide what I build and how I build it.
 
-## Current Work
+## Valid Blockchain
 
-**Valid Blockchain** — Proof-of-stake L1. Currently at v0.5.0-rc1. Testnet launches soon.
+A Layer 1 blockchain running TPI (Three-Party Integrity) consensus. Legitimacy comes from actually producing blocks, not from staking or computation. It's at v0.7.6 with testnet development underway: functional tokenomics, a working archive layer, encrypted peer transport, and hardening built up release-over-release.
 
-**Valid Browser** — Brave fork. Web2 browser with web3 gateway to the Valid ecosystem.
+Repo: [accessible-tpi-chain](https://github.com/HiImRook/accessible-tpi-chain)
 
-**Valid Vault** — Local password manager.
+## Valid Vault
 
-**K.E.V.I.N.** — Local LLM project.
+A password manager that keeps your credentials encrypted on your own device. There's no server to breach because everything stays with *you*. Unlock with your fingerprint, and move logins between your devices by scanning a QR code. Available as a browser extension and an Android app.
 
-**Platform Bots** — Discord automation, in-memory tools, experiments usually to isolate use cases.
+Repo: [valid-vault-password-manager](https://github.com/HiImRook/valid-vault-password-manager)
 
-**Original TCG** — Trading card game in development.
+## Valid Browser
 
-## Projects
+A Brave fork that works as a normal browser while giving you a built-in gateway to the Valid ecosystem: wallet, human-readable names for sites and services (a DNS alternative), storage, and payments.
 
-- [accessible-pos-chain](https://github.com/HiImRook/accessible-pos-chain) — L1 blockchain
+## K.E.V.I.N.
 
-- [local-vault-password-manager](https://github.com/HiImRook/local-vault-password-manager) — local password manager
+Local LLM and distributed inference. AI that runs locally on your hardware.
 
-- [K.E.V.I.N.](https://github.com/HiImRook/K.E.V.I.N) — AI agent
+## Bots and the rest
+
+An ecosystem of Discord automation and platform tools, all built the same way: ephemeral, self-contained, no external databases. Plus an original trading card game in development.
 
 ## Rook is here
 
-- GitHub: https://github.com/HiImRook
-- Discord: https://discord.gg/2SP383cJs9
+- GitHub: [HiImRook](https://github.com/HiImRook)
+- Discord: [Join here](https://discord.gg/2SP383cJs9)
+- Medium: [Rook](https://medium.com/@WarTimeRook)
+---
+
+Everything here is solo-built and under active development.
