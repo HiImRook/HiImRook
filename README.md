@@ -1,3 +1,6 @@
+<img width="1500" height="500" alt="valid-vault-banner-crt" src="https://github.com/user-attachments/assets/3fca3597-df66-478d-93da-a9dd3576e002" />
+
+
 # Local-first security and systems engineering
 
 Independent software engineer. I build local-first, open-source systems in Rust and JavaScript: a Layer 1 blockchain, an encrypted password manager, and an experimental radar gesture control system. Each one keeps data on the user's own device and works without a third-party server.
