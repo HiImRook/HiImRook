@@ -17,7 +17,9 @@ A Layer 1 blockchain written from scratch in Rust, with an original consensus me
 
 A password manager for Chromium browsers and Android. The vault is encrypted on the device with AES-GCM under a single master key, wrapped separately for fingerprint, device PIN, and master password, with no stored password hash and no server. Vaults move between devices over a local QR stream or an encrypted backup file, and browsers on the same computer can share one encrypted vault file. Stores logins, crypto wallet seed phrases, and bookmarks. At v0.7.3.
 
-[Repository](https://github.com/HiImRook/valid-vault-password-manager)
+[Repository](https://github.com/HiImRook/valid-vault-password-manager) · [Chrome Web Store](https://chromewebstore.google.com/detail/valid-vault-password-mana/fkpfaemmphmakebhejhaegjgcnieeoab)
+
+<a href="https://chromewebstore.google.com/detail/valid-vault-password-mana/fkpfaemmphmakebhejhaegjgcnieeoab"><img src="assets/chrome-web-store-badge.png" alt="Available in the Chrome Web Store" height="58"></a>
 
 ## Valid Symphony
 
